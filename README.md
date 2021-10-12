@@ -15,6 +15,6 @@ Alternative OJ
 ## My Task
 - Task 1: 本地化部署JCoder Online Judge系统 （Deadline: 10.17）
 - Task 2: 移除本地化当中的Google登录验证（Deadline: 10.20）
-- Task 3: 在本地化部署的内容运行端口测试，完成所有端口测试（Deadline: 10.31）
+- Task 3: 在本地化部署的内容使用Postman运行端口测试，完成所有端口测试（Deadline: 10.31）
 - Task 4: 本地搭建自动化测试平台（Deadline: 11.14）
 - Task 5(可选)： 自动化测试平台部署到已经购买好的云主机上（Deadline: 11.21）
