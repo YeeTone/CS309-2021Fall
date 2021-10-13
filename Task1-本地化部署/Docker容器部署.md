@@ -16,6 +16,11 @@ docker images
 docker run docker-whale
 ```
 
+使用docker镜像来启动docker容器：
+```
+docker run -t -i docker-whale /bin/bash
+```
+
 ## 踩的坑
 
 报错：Hardware assisted virtualization and data execution protection must be enabled in the BIOS
@@ -58,3 +63,4 @@ bcdedit /set hypervisorlaunchtype auto
 
 - 运行了两条命令后需要重启计算机。
 
+### 坑3：使用dockerfile启动的镜像来启动容器时，容器显示ConnectionError的OSError，然后启动后很快就exit(1)异常退出
