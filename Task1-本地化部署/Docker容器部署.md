@@ -1,8 +1,26 @@
 # JCoder Docker容器部署
 
+## 指令集合
+在dockerfile所在路径根据dockerfile创建docker镜像：
+```
+docker build -t docker-whale .
+```
+
+查看所有docker镜像：
+```
+docker images
+```
+
+运行docker镜像：
+```
+docker run docker-whale
+```
+
+## 踩的坑
+
 报错：Hardware assisted virtualization and data execution protection must be enabled in the BIOS
 
-## 坑1：在计算机上没有Hyper-V    
+### 坑1：在计算机上没有Hyper-V    
 
 解决方案：
 - 复制以下内容进入记事本中，并重命名为Hyper-V.cmd文件
@@ -22,7 +40,7 @@ Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /AL
 
 - 运行完成后按```Y```重启计算机。
 
-## 坑2: Hyper-V管理器中没有DockerNAT
+### 坑2: Hyper-V管理器中没有DockerNAT
 
 解决方案：     
 
@@ -39,3 +57,4 @@ bcdedit /set hypervisorlaunchtype auto
 ```
 
 - 运行了两条命令后需要重启计算机。
+
