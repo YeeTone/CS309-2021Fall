@@ -73,4 +73,5 @@ docker build -t nginx:v3 .
 docker run -d -p 5000:5000 nginx:v3
 ```
 
+可能原因：本机上redis没启动……？
 
