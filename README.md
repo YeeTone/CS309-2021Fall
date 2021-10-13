@@ -13,7 +13,7 @@ Author: YeeTone
 Alternative OJ
 
 ## My Current Finished Job
-- 完成了后端部分API的探测
+- 完成了后端一部分API的探测
 - 完成了本设备上前端的部署
 
 ## My Plan/Task
