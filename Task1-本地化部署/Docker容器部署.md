@@ -65,4 +65,12 @@ bcdedit /set hypervisorlaunchtype auto
 
 ### 坑3：使用dockerfile启动的镜像来启动容器时，容器显示ConnectionError的OSError，然后启动后很快就exit(1)异常退出
 
-解决方案：一定是没有按照指令集合进行的操作，应该要使用指令集合里的方法来启动docker容器！
+这种情况出现于尝试端口绑定的情况，如果使用指令集合的方法，则不会出现这种问题。
+
+在dockerfile目录下尝试指令：
+```
+docker build -t nginx:v3 .
+docker run -d -p 5000:5000 nginx:v3
+```
+
+
