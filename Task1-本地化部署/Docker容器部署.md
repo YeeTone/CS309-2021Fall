@@ -64,3 +64,5 @@ bcdedit /set hypervisorlaunchtype auto
 - 运行了两条命令后需要重启计算机。
 
 ### 坑3：使用dockerfile启动的镜像来启动容器时，容器显示ConnectionError的OSError，然后启动后很快就exit(1)异常退出
+
+解决方案：一定是没有按照指令集合进行的操作，应该要使用指令集合里的方法来启动docker容器！
