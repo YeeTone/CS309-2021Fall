@@ -14,7 +14,7 @@ Alternative OJ
 
 ## My Current Finished Job
 - 完成了后端一部分API的探测
-- 完成了本设备上前端的部署
+- 完成了本设备上前端的部署，4000端口，暂时还没有连接后端
 
 ## My Plan/Task
 - Task 1: 本地化部署JCoder Online Judge系统 （Deadline: 10.20）
