@@ -18,9 +18,9 @@ del hyper-v.txt
 Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /ALL
 ```
 
-保存后使用管理员权限运行该cmd文件
+- 保存后使用管理员权限运行该cmd文件
 
-运行完成后按```Y```重启计算机。
+- 运行完成后按```Y```重启计算机。
 
 ## 坑2: Hyper-V管理器中没有DockerNAT
 
@@ -38,4 +38,4 @@ bcdedit /set hypervisorlaunchtype off
 bcdedit /set hypervisorlaunchtype auto
 ```
 
-运行了两条命令后需要重启计算机。
+- 运行了两条命令后需要重启计算机。
