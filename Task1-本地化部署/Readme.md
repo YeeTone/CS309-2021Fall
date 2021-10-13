@@ -4,18 +4,6 @@
 
 ## 前端部署
 
-操作流程：
-- 先转入Frontend所在的文件夹
-- 打开命令行，运行以下指令：
-```
-npm run build
-npm install -g serve
-serve -s build -p 4000
-```
-- 然后即可实现在 http://localhost:4000 进行访问JCoder的前端    
-（不过无法进行任何操作，会报错，因为没有后端）
-
-
 ## JCoder Docker容器部署
 
 报错：Hardware assisted virtualization and data execution protection must be enabled in the BIOS
