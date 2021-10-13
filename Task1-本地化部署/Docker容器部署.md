@@ -75,3 +75,7 @@ docker run -d -p 6379:6379 nginx:v3
 
 可能原因：本机上redis没启动……？
 
+- 启动redis后，仍然报错，报错信息为：
+```
+aioredis.errors.ConnectionClosedError: Reader at end of file
+```
