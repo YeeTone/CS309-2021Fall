@@ -26,7 +26,7 @@ Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /AL
 
 解决方案：     
 
-重启Hyper-V，使用以下命令：        
+- 重启Hyper-V，使用以下命令：        
 ```
 net stop vmms
 net start vmms
