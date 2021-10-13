@@ -12,7 +12,11 @@ Author: YeeTone
 ## Group Topic
 Alternative OJ
 
-## My Task
+## My Current Finished Job
+- 完成了后端部分API的探测
+- 完成了本设备上前端的部署
+
+## My Plan/Task
 - Task 1: 本地化部署JCoder Online Judge系统 （Deadline: 10.20）
 - Task 2: 移除本地化当中的Google登录验证（Deadline: 10.23）
 - Task 3: 在本地化部署的内容使用Postman运行端口测试，完成所有端口测试（Deadline: 10.31）
