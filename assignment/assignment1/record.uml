@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>assignment1.record</OriginalElement>
+  <nodes>
+    <node x="299.08333333333337" y="166.0">assignment1.people.Student</node>
+    <node x="285.3886138613859" y="0.0">assignment1.SUSTechTime</node>
+    <node x="339.72194719471923" y="436.0">assignment1.people.Administrator</node>
+    <node x="549.0833333333334" y="166.0">assignment1.people.AdministrativeStaff</node>
+    <node x="416.7190594059406" y="82.0">assignment1.record.HealthDeclarationRecord</node>
+    <node x="511.7219471947192" y="354.0">assignment1.people.SUSTechMember</node>
+    <node x="427.08333333333337" y="166.0">assignment1.people.Faculty</node>
+    <node x="34.580445544554664" y="250.0">assignment1.system.HealthDeclarationSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="assignment1.people.Administrator" target="assignment1.system.HealthDeclarationSystem" relationship="DEPENDENCY">
+      <point x="-37.0" y="-15.0" />
+      <point x="376.72194719471923" y="415.0" />
+      <point x="202.09694719471923" y="415.0" />
+      <point x="202.09694719471923" y="405.0" />
+      <point x="168.47194719471923" y="405.0" />
+      <point x="168.47194719471923" y="302.0" />
+      <point x="204.83044554455466" y="302.0" />
+      <point x="56.75" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.SUSTechMember" target="assignment1.SUSTechTime" relationship="DEPENDENCY">
+      <point x="21.25" y="-15.0" />
+      <point x="617.9719471947192" y="332.0" />
+      <point x="753.4719471947192" y="332.0" />
+      <point x="753.4719471947192" y="302.0" />
+      <point x="784.1666666666667" y="302.0" />
+      <point x="784.1666666666667" y="61.0" />
+      <point x="568.7190594059405" y="61.0" />
+      <point x="568.7190594059405" y="51.0" />
+      <point x="405.3886138613859" y="51.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.SUSTechMember" target="assignment1.record.HealthDeclarationRecord" relationship="TO_ONE">
+      <point x="-63.75" y="-15.0" />
+      <point x="532.9719471947192" y="332.0" />
+      <point x="124.59694719471923" y="332.0" />
+      <point x="124.59694719471923" y="322.0" />
+      <point x="24.080445544554664" y="322.0" />
+      <point x="24.080445544554664" y="144.0" />
+      <point x="101.47194719471918" y="144.0" />
+      <point x="101.47194719471918" y="134.0" />
+      <point x="454.3857260726072" y="134.0" />
+      <point x="-75.33333333333331" y="15.0" />
+    </edge>
+    <edge source="assignment1.record.HealthDeclarationRecord" target="assignment1.people.SUSTechMember" relationship="TO_ONE">
+      <point x="-75.33333333333331" y="15.0" />
+      <point x="454.3857260726072" y="134.0" />
+      <point x="101.47194719471918" y="134.0" />
+      <point x="101.47194719471918" y="144.0" />
+      <point x="24.080445544554664" y="144.0" />
+      <point x="24.080445544554664" y="322.0" />
+      <point x="124.59694719471923" y="322.0" />
+      <point x="124.59694719471923" y="332.0" />
+      <point x="532.9719471947192" y="332.0" />
+      <point x="-63.75" y="-15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.people.SUSTechMember" relationship="TO_MANY">
+      <point x="-56.75" y="15.0" />
+      <point x="91.33044554455466" y="322.0" />
+      <point x="124.59694719471923" y="322.0" />
+      <point x="124.59694719471923" y="332.0" />
+      <point x="532.9719471947192" y="332.0" />
+      <point x="-63.75" y="-15.0" />
+    </edge>
+    <edge source="assignment1.people.Administrator" target="assignment1.record.HealthDeclarationRecord" relationship="DEPENDENCY">
+      <point x="-37.0" y="-15.0" />
+      <point x="376.72194719471923" y="415.0" />
+      <point x="202.09694719471923" y="415.0" />
+      <point x="202.09694719471923" y="405.0" />
+      <point x="272.08044554455466" y="405.0" />
+      <point x="272.08044554455466" y="144.0" />
+      <point x="529.7190594059406" y="144.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.record.HealthDeclarationRecord" target="assignment1.people.SUSTechMember" relationship="DEPENDENCY">
+      <point x="0.0" y="15.0" />
+      <point x="529.7190594059406" y="144.0" />
+      <point x="743.5833333333334" y="144.0" />
+      <point x="743.5833333333334" y="302.0" />
+      <point x="753.4719471947192" y="302.0" />
+      <point x="753.4719471947192" y="332.0" />
+      <point x="617.9719471947192" y="332.0" />
+      <point x="21.25" y="-15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.people.Student" relationship="DEPENDENCY">
+      <point x="75.66666666666669" y="-15.0" />
+      <point x="223.74711221122135" y="228.0" />
+      <point x="454.83333333333337" y="228.0" />
+      <point x="454.83333333333337" y="218.0" />
+      <point x="379.33333333333337" y="218.0" />
+      <point x="26.75" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.AdministrativeStaff" target="assignment1.people.SUSTechMember" relationship="GENERALIZATION">
+      <point x="46.0" y="15.0" />
+      <point x="687.0833333333334" y="228.0" />
+      <point x="646.0833333333334" y="228.0" />
+      <point x="646.0833333333334" y="302.0" />
+      <point x="483.08333333333337" y="302.0" />
+      <point x="483.08333333333337" y="322.0" />
+      <point x="575.4719471947192" y="322.0" />
+      <point x="-21.25" y="-15.0" />
+    </edge>
+    <edge source="assignment1.people.SUSTechMember" target="assignment1.system.HealthDeclarationSystem" relationship="DEPENDENCY">
+      <point x="21.25" y="-15.0" />
+      <point x="617.9719471947192" y="332.0" />
+      <point x="753.4719471947192" y="332.0" />
+      <point x="753.4719471947192" y="312.0" />
+      <point x="168.47194719471923" y="312.0" />
+      <point x="168.47194719471923" y="302.0" />
+      <point x="204.83044554455466" y="302.0" />
+      <point x="56.75" y="15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.people.SUSTechMember" relationship="DEPENDENCY">
+      <point x="56.75" y="15.0" />
+      <point x="204.83044554455466" y="302.0" />
+      <point x="168.47194719471923" y="302.0" />
+      <point x="168.47194719471923" y="312.0" />
+      <point x="753.4719471947192" y="312.0" />
+      <point x="753.4719471947192" y="332.0" />
+      <point x="617.9719471947192" y="332.0" />
+      <point x="21.25" y="-15.0" />
+    </edge>
+    <edge source="assignment1.people.Faculty" target="assignment1.people.SUSTechMember" relationship="GENERALIZATION">
+      <point x="25.5" y="15.0" />
+      <point x="503.58333333333337" y="228.0" />
+      <point x="507.0325907590757" y="228.0" />
+      <point x="507.0325907590757" y="302.0" />
+      <point x="483.08333333333337" y="302.0" />
+      <point x="483.08333333333337" y="322.0" />
+      <point x="575.4719471947192" y="322.0" />
+      <point x="-21.25" y="-15.0" />
+    </edge>
+    <edge source="assignment1.people.Administrator" target="assignment1.people.SUSTechMember" relationship="GENERALIZATION">
+      <point x="37.0" y="-15.0" />
+      <point x="450.72194719471923" y="415.0" />
+      <point x="596.7219471947192" y="415.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.AdministrativeStaff" target="assignment1.record.HealthDeclarationRecord" relationship="DEPENDENCY">
+      <point x="2.8421709430404007E-14" y="-15.0" />
+      <point x="641.0833333333334" y="144.0" />
+      <point x="529.7190594059406" y="144.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.record.HealthDeclarationRecord" target="assignment1.SUSTechTime" relationship="TO_ONE">
+      <point x="-56.5" y="-15.0" />
+      <point x="473.2190594059406" y="61.0" />
+      <point x="340.9690594059406" y="61.0" />
+      <point x="340.9690594059406" y="51.0" />
+      <point x="357.3886138613859" y="51.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.record.HealthDeclarationRecord" relationship="TO_MANY">
+      <point x="-1.4210854715202004E-14" y="-15.0" />
+      <point x="148.08044554455464" y="144.0" />
+      <point x="101.47194719471918" y="144.0" />
+      <point x="101.47194719471918" y="134.0" />
+      <point x="454.3857260726072" y="134.0" />
+      <point x="-75.33333333333331" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.SUSTechMember" target="assignment1.record.HealthDeclarationRecord" relationship="CREATE">
+      <point x="63.75" y="-15.0" />
+      <point x="660.4719471947192" y="322.0" />
+      <point x="754.5833333333334" y="322.0" />
+      <point x="754.5833333333334" y="134.0" />
+      <point x="605.0523927392738" y="134.0" />
+      <point x="75.33333333333331" y="15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.SUSTechTime" relationship="CREATE">
+      <point x="-75.66666666666669" y="-15.0" />
+      <point x="72.41377887788798" y="228.0" />
+      <point x="0.0" y="228.0" />
+      <point x="0.0" y="51.0" />
+      <point x="309.3886138613859" y="51.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.record.HealthDeclarationRecord" relationship="DEPENDENCY">
+      <point x="75.66666666666669" y="-15.0" />
+      <point x="223.74711221122135" y="228.0" />
+      <point x="454.83333333333337" y="228.0" />
+      <point x="454.83333333333337" y="218.0" />
+      <point x="416.58333333333337" y="218.0" />
+      <point x="416.58333333333337" y="144.0" />
+      <point x="529.7190594059406" y="144.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.people.Faculty" relationship="DEPENDENCY">
+      <point x="75.66666666666669" y="-15.0" />
+      <point x="223.74711221122135" y="228.0" />
+      <point x="454.83333333333337" y="228.0" />
+      <point x="454.83333333333337" y="218.0" />
+      <point x="452.58333333333337" y="218.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.Student" target="assignment1.people.SUSTechMember" relationship="GENERALIZATION">
+      <point x="-26.75" y="15.0" />
+      <point x="325.83333333333337" y="218.0" />
+      <point x="347.58333333333337" y="218.0" />
+      <point x="347.58333333333337" y="302.0" />
+      <point x="483.08333333333337" y="302.0" />
+      <point x="483.08333333333337" y="322.0" />
+      <point x="575.4719471947192" y="322.0" />
+      <point x="-21.25" y="-15.0" />
+    </edge>
+    <edge source="assignment1.record.HealthDeclarationRecord" target="assignment1.SUSTechTime" relationship="DEPENDENCY">
+      <point x="56.5" y="-15.0" />
+      <point x="586.2190594059406" y="61.0" />
+      <point x="568.7190594059405" y="61.0" />
+      <point x="568.7190594059405" y="51.0" />
+      <point x="405.3886138613859" y="51.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.people.AdministrativeStaff" relationship="DEPENDENCY">
+      <point x="75.66666666666669" y="-15.0" />
+      <point x="223.74711221122135" y="228.0" />
+      <point x="454.83333333333337" y="228.0" />
+      <point x="454.83333333333337" y="218.0" />
+      <point x="595.0833333333334" y="218.0" />
+      <point x="-46.0" y="15.0" />
+    </edge>
+    <edge source="assignment1.people.AdministrativeStaff" target="assignment1.system.HealthDeclarationSystem" relationship="DEPENDENCY">
+      <point x="-46.0" y="15.0" />
+      <point x="595.0833333333334" y="218.0" />
+      <point x="454.83333333333337" y="218.0" />
+      <point x="454.83333333333337" y="228.0" />
+      <point x="223.74711221122135" y="228.0" />
+      <point x="75.66666666666669" y="-15.0" />
+    </edge>
+    <edge source="assignment1.system.HealthDeclarationSystem" target="assignment1.SUSTechTime" relationship="TO_ONE">
+      <point x="-1.4210854715202004E-14" y="-15.0" />
+      <point x="148.08044554455464" y="218.0" />
+      <point x="11.0" y="218.0" />
+      <point x="11.0" y="61.0" />
+      <point x="340.9690594059406" y="61.0" />
+      <point x="340.9690594059406" y="51.0" />
+      <point x="357.3886138613859" y="51.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="392.5" y="233.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

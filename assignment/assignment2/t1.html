@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script type="text/javascript" src="table.js"></script>
+    <link rel="stylesheet" type="text/css" href="t.css"/>
+    <meta charset="UTF-8"/>
+    <title>Hotel list</title></head>
+<body style="background-image: url(bg.jpeg)">
+<table border="1" cellpadding="10" cellspacing="5">
+    <caption><h2>Hotel List</h2></caption>
+    <tr>
+        <th>Hotel Name</th>
+        <th>City</th>
+        <th>District</th>
+        <th>Date</th>
+        <th>Earliest check-in-time</th>
+        <th>price</th>
+        <th>Room Type</th>
+        <th>Operation</th>
+    </tr>
+    <tbody id="tbody" style="display: none">
+    <tr bgcolor="#F9E3AF">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><input type="button" value="Delete" onclick="removeRow(this)" style="font-size: 25px;"></td>
+    </tr>
+    <tr>
+        <input type="button" value="Hide/Show" class="hideShowButton" style="font-size: 25px;" onclick="setDisplay()">
+    </tr>
+    </tbody>
+</table>
+<div id="form1" style="display: none">
+    <form name="form1"> Hotel Name:
+        <label> <input type="text" name="hotel-name" style="font-size: 25px;"/> </label>
+        <br/> City:
+        <label> <input type="radio" name="city" value="guangzhou" onchange="setDistrict()"/> GUANG ZHOU </label>
+        <label> <input type="radio" name="city" value="shenzhen" onchange="setDistrict()"/> SHEN ZHEN </label>
+        <br/> District: <label>
+            <select id="district" style="font-size: 25px;">
+            </select>
+        </label>
+        <br/> Date: <label>
+            <input id = "date1" type="date" name="date" style="font-size: 25px;"/>
+
+        </label>
+        <br/> Earliest check-in time:
+        <label>
+            <input type="time" name="time" style="font-size: 25px;"/>
+        </label>
+        <br/> Price<label>
+            <input type="text" name="price" style="font-size: 25px;"/>
+        </label>
+
+        <br/>Room Type:
+        <label for="roomType">
+
+        </label><select id="roomType" style="font-size: 25px;">
+            <option>Standard Room</option>
+            <option>King Bed Room</option>
+            <option>Family Room</option>
+            <option>Presidential Suite</option>
+        </select> <br/>
+        <input class="addHotelButton" type="button" value="Add Hotel" onclick="onClickAddHotel()" style="font-size: 25px;"><br> <br/></form>
+
+
+</div>
+
+</body>
+<script language="JavaScript">
+    setDate();
+</script>
+</html>

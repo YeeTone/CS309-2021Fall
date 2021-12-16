@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+'autonumber
+
+SUSTechMember -> AppFrontEnd: Click Start Button
+AppFrontEnd -> AppBackend: Request Question
+AppBackend -> Database: Request Question
+Database --> AppBackend: Return Question
+AppBackend --> AppFrontEnd: Return Question
+
+SUSTechMember -> AppFrontEnd: Fulfill Declaration
+
+loop notSubmitted
+    SUSTechMember -> AppFrontEnd: Click Risk Button
+    alt riskClicked
+        AppFrontEnd -> AppFrontEnd: Add an Input Area
+        AppFrontEnd --> SUSTechMember: Notify a Message for contact School
+    else no
+        AppFrontEnd -> AppBackend: Upload to Backend
+        AppBackend -> Database: Upload to Database
+    end
+
+    SUSTechMember -> AppFrontEnd: ClickSubmit
+    alt isAllAnswered?
+        AppFrontEnd -> AppBackend: Upload to Backend
+        AppBackend -> Database: Upload to Database
+        Database --> AppBackend: Upload Success
+        AppBackend --> AppFrontEnd: Upload Success
+        AppFrontEnd --> SUSTechMember: Submit Success
+        break Loop
+                end
+    else
+        AppFrontEnd --> SUSTechMember: Remind notSubmitted
+
+    end
+end
+@enduml
+
+@startuml
+Alice -> Bob: 认证请求
+
+alt 成功情况
+
+    Bob -> Alice: 认证接受
+
+else 某种失败情况
+
+    Bob -> Alice: 认证失败
+    group 我自己的标签
+    Alice -> Log : 开始记录攻击日志
+        loop 1000次
+            Alice -> Bob: DNS 攻击
+        end
+    Alice -> Log : 结束记录攻击日志
+    end
+
+else 另一种失败
+
+   Bob -> Alice: 请重复
+
+end
+@enduml
