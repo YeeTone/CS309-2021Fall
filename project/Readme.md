@@ -2,6 +2,8 @@
 
 Author: YeeTone
 
+这次project是真的靠大佬带我。
+
 ## Group Member
 - 11912823 刘旭坤        
 - 11912824 黄彦淞      
