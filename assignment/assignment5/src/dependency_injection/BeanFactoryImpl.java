@@ -138,6 +138,7 @@ public class BeanFactoryImpl implements BeanFactory {
 
     enum Parser {
         //将源代码重构，使用枚举类的多态取代了一长串的if-else分支
+        //空对象模式，享元模式
         IntegerParser {
             public Object parse(Value valueAnno, String[] numStrings) {
                 for (String s : numStrings) {
