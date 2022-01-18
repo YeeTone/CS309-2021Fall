@@ -15,5 +15,7 @@ Author: YeeTone WANG
   - A3: Observer Pattern 100/100
   - A4: Factory Pattern and Singleton Pattern 100/100
   - A5: Dependency Injection 100/100
-- Project ?/100 -> 35%
-- Final ?/100 -> 35%
+- Project 100/100 -> 35%
+- Final 74.5/100 -> 35%
+
+Final Score: 91/100 -> A-
