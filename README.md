@@ -26,7 +26,7 @@ Final Score: 91/100 -> A-
 
 上了这门课了以后，人生中见到什么离谱的事情，都将会不足为奇。
 
-这门课的project可以充分暴露你现有团队的合作能力。
+这门课的project可以充分暴露你现有团队成员的人性。
 ### Assignment
 - 每个Assignment都非常简单，没什么技术含量，与Project的相关度也不高
 - Assignment推荐大家尽快通过课上检查的方式完事，不要拖到后面和project一起搞
