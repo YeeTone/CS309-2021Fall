@@ -38,4 +38,4 @@ Alternative OJ
 - Task 2: 移除本地化当中的Google登录验证（Deadline: 10.23）
 - Task 3: 在本地化部署的内容使用Postman运行端口测试，完成所有端口测试（Deadline: 10.31）
 - Task 4: 本地搭建自动化测试平台（Deadline: 11.14）
-- Task 5： 自动化测试平台部署到本地服务器上（Deadline: 11.21）
+- Task 5: 自动化测试平台部署到本地服务器上（Deadline: 11.21）
