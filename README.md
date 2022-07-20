@@ -45,7 +45,3 @@ Final Score: 91/100 -> A-
 
 ## 22 Fall Course Project Idea
 我将会出任22秋季OOAD课程的学生助理，实验班为周五56节朱悦铭老师，实验课机房为三教511。
-
-Personal Ideas:
-1. 某RTS巅峰之作
-2. 某回合制卡牌与角色扮演游戏
