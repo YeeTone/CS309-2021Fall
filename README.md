@@ -2,6 +2,14 @@
 
 Author: YeeTone WANG
 
+## SA Announcement
+
+我将会出任22秋季OOAD课程的学生助理。
+
+Lab：周五 5-6，三教511，实验课老师是朱悦铭老师
+
+![image](https://user-images.githubusercontent.com/64548919/180145066-394fdae4-3dfe-4dda-a1e0-936a28e4f104.png)
+
 ## Course Information
 - Semester: 2021Fall
 - Lecture Teacher: Yuqun ZHANG
@@ -42,6 +50,3 @@ Final Score: 91/100 -> A-
 ### Final Exam
 - 这门课的理论和期末考试比较\*\*\*\*\*\*，考得就是玄学和理解
 - 这期末考试就是没有考好，也问题不大，这期末考试比较玄学，不能说明太多的问题
-
-## 22 Fall Course Project Idea
-我将会出任22秋季OOAD课程的学生助理，实验班为周五56节朱悦铭老师，实验课机房为三教511。
