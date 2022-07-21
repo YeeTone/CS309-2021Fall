@@ -10,6 +10,10 @@ Lab：周五 5-6，三教511，实验课老师是朱悦铭老师
 
 ![image](https://user-images.githubusercontent.com/64548919/180145066-394fdae4-3dfe-4dda-a1e0-936a28e4f104.png)
 
+我下学期负责1个project主题和1次作业。我负责的project是自动化脚本测评方向，已经完成了主题设计和评分标准。
+
+总体来说，我设计的project延续了我一贯的出题风格：难度比以前同类型的有所降低，很直观，但是一定会让大家写很多代码，让大家享受coding的极致快乐。
+
 ## Course Information
 - Semester: 2021Fall
 - Lecture Teacher: Yuqun ZHANG
